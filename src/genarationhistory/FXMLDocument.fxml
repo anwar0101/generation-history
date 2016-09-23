@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="333.0" prefWidth="457.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="genarationhistory.FXMLDocumentController">
+   <children>
+      <TreeView fx:id="treeView" layoutX="14.0" layoutY="14.0" prefHeight="293.0" prefWidth="297.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="140.0" AnchorPane.topAnchor="20.0" />
+      <VBox layoutX="352.0" layoutY="30.0" spacing="5.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#addPerson" prefHeight="25.0" prefWidth="94.0" text="Add Person" />
+            <Button mnemonicParsing="false" onAction="#viewAsTree" prefHeight="25.0" prefWidth="94.0" text="View As Tree" />
+            <Button mnemonicParsing="false" onAction="#ViewAsGraph" prefHeight="25.0" prefWidth="94.0" text="View As Graph" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
